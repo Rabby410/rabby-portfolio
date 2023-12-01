@@ -20,10 +20,10 @@ export function Logo() {
 			>
 				{pathname === SITE_ROUTES.projects ? (
 					<Link href={SITE_ROUTES.home} aria-label="Go to home page" role="link">
-						{SITE_STRINGS.textLogo}
+						<img src="./rk.png" alt="Rk" width="60px" />{SITE_STRINGS.textLogo}						
 					</Link>
 				) : (
-					<>{SITE_STRINGS.textLogo}</>
+					<><img src="./rk.png" alt="Rk" width="60px" />{SITE_STRINGS.textLogo}</>
 				)}
 			</m.h3>
 		</LazyMotion>

@@ -16,7 +16,7 @@ export function WelcomeSection() {
 
 	let [count, setCount] = useState(0);
 	const [text] = useState([
-		"build Flutter apps for Android/iOS",
+		"build Laravel and PHP based Application",
 		"convert design into modern UI",
 		"build interactive UI using React",
 		"develop websites using Next.js"
@@ -52,7 +52,7 @@ export function WelcomeSection() {
 							}}
 						>
 							<p>
-								Hi, I&apos;m <mark>Vasile</mark> a <mark>passionate</mark> software developer.
+								Hi, I&apos;m <mark>Shahadath Hossain</mark> a <mark>passionate</mark> software developer.
 							</p>
 						</h1>
 
@@ -111,13 +111,12 @@ export function WelcomeSection() {
 							}}
 						>
 							<Link
-								href="#projects"
-								onClick={onClick}
+								href="scv.pdf"
 								tabIndex="0"
 								className="btn"
 								aria-label="Latest projects"
 							>
-								See my latest projects
+								Check my CV
 							</Link>
 						</div>
 					</div>

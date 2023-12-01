@@ -1,9 +1,9 @@
-const author = "Vasile Novatchii";
+const author = "Shahadath Hossain";
 const description =
 	"Software developer from Moldova, Republic of, who loves to develop beautiful websites, single page applications, customer relationship management or code from scratch using React and Next.js";
-const url = "https://vasile-novatchii.netlify.app";
+const url = "https://rococo-lily-e1fa71.netlify.app/";
 export const AppMetadata = {
-	metadataBase: new URL("https://vasile-novatchii.netlify.app/"),
+	metadataBase: new URL("https://rococo-lily-e1fa71.netlify.app//"),
 	title: {
 		default: `Portfolio | ${author}`,
 		template: `%s | ${author}`
@@ -13,8 +13,8 @@ export const AppMetadata = {
 		icon: "/favicon.png"
 	},
 	keywords: [
-		"Vasile Novatchii",
-		"Vasile Novatchii - software developer",
+		"Shahadath Hossain",
+		"Shahadath Hossain - software developer",
 		"Frontend developer",
 		"Flutter developer",
 		"Portfolio website",
@@ -30,13 +30,13 @@ export const AppMetadata = {
 		siteName: `${author} | Portfolio`,
 		images: [
 			{
-				url: "https://vasile-novatchii.netlify.app/screenshot.webp",
+				url: "https://www.facebook.com/photo/?fbid=296769953258436&set=a.110714645197302",
 				width: 800,
 				height: 600,
 				alt: "My personal portfolio website"
 			},
 			{
-				url: "https://vasile-novatchii.netlify.app/screenshot.webp",
+				url: "https://www.facebook.com/photo/?fbid=296769953258436&set=a.110714645197302",
 				width: 1800,
 				height: 1600,
 				alt: "My personal portfolio website"
